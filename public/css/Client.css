@@ -1,3 +1,4 @@
+
 body{
     background: black;
     text-align: left;
@@ -56,13 +57,13 @@ a{
 h2{
 
     font-size: 20px;
-      font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
     color: darkorange;
     text-align: center;
 }
 
 img{
- float: left;
+    float: left;
     margin: 10px;
 
 }
