@@ -46,17 +46,15 @@ http.createServer(function (req, res) {
         case '':
             serveStaticFile(res, '/public/index.html', 'text/html');
             break;
+
+        /* HTML files */
+
         case '/index.html':
             serveStaticFile(res, '/public/index.html', 'text/html');
             break;
         case '/about.html':
             serveStaticFile(res, '/public/about.html', 'text/html');
             break;
-
-
-
-
-
 
         case '/concerts.html':
             serveStaticFile(res, '/public/concerts.html', 'text/html');
@@ -74,7 +72,6 @@ http.createServer(function (req, res) {
 
 
         /* Image files */
-
 
         case '/images/ClientWebImage1.jpg':
             serveStaticFile(res, '/public/images/ClientWebImage1.jpg', 'image/jpeg');
