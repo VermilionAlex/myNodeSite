@@ -49,32 +49,32 @@ http.createServer(function (req, res) {
 
         /* HTML files */
 
-        case '/index.html':
+        case '/index':
             serveStaticFile(res, '/public/index.html', 'text/html');
             break;
-        case '/about.html':
+        case '/about':
             serveStaticFile(res, '/public/about.html', 'text/html');
             break;
 
-        case '/concerts.html':
+        case '/concerts':
             serveStaticFile(res, '/public/concerts.html', 'text/html');
             break;
 
-        case '/music.html':
+        case '/music':
             serveStaticFile(res, '/public/music.html', 'text/html');
             break;
 
         /* CSS files */
 
-        case '/css/Client.css':
-            serveStaticFile(res, '/public/css/Client.css', 'text/css');
+        case '/css/client.css':
+            serveStaticFile(res, '/public/css/client.css', 'text/css');
             break;
 
 
         /* Image files */
 
-        case '/images/ClientWebImage1.jpg':
-            serveStaticFile(res, '/public/images/ClientWebImage1.jpg', 'image/jpeg');
+        case '/images/clientwebimage1.jpg':
+            serveStaticFile(res, '/public/images/clientwebimage1.jpg', 'image/jpeg');
             break;
 
         case '/images/concept_logo.png':
@@ -87,8 +87,8 @@ http.createServer(function (req, res) {
 
         /* JavaScript files */
 
-        case '/js/ajaxHTML.js':
-            serveStaticFile(res, '/public/js/ajaxHTML.js', 'text/javascript');
+        case '/js/ajaxhtml.js':
+            serveStaticFile(res, '/public/js/ajaxhtml.js', 'text/javascript');
             break;
 
         case '/js/calender.js':
@@ -100,12 +100,12 @@ http.createServer(function (req, res) {
             serveStaticFile(res, '/public/js/concert.js', 'text/javascript');
             break;
 
-        case '/js/outputXML.js':
-            serveStaticFile(res, '/public/js/outputXML.js', 'text/javascript');
+        case '/js/outputxml.js':
+            serveStaticFile(res, '/public/js/outputxml.js', 'text/javascript');
             break;
 
-        case '/js/jsonUpdate.js':
-            serveStaticFile(res, '/public/js/jsonUpdate.js', 'text/javascript');
+        case '/js/jsonupdate.js':
+            serveStaticFile(res, '/public/js/jsonupdate.js', 'text/javascript');
             break;
 
         case '/js/jquery-3.7.1.js':
@@ -119,15 +119,17 @@ http.createServer(function (req, res) {
         case '/js/about.js':
             serveStaticFile(res, '/public/js/about.js', 'text/javascript');
             break;
-        case '/js/uiJQ.js':
-            serveStaticFile(res, '/public/js/uiJQ.js', 'text/javascript');
+        case '/js/uijq.js':
+            serveStaticFile(res, '/public/js/uijq.js', 'text/javascript');
             break;
-
+        case '/js/jquerytoajax.js':
+            serveStaticFile(res, '/public/js/jquerytoajax.js', 'text/javascript');
+            break;
 
         /* Datafiles */
 
-            case '/data/AJAXjQuery.html':
-                serveStaticFile(res, '/public/data/AJAXjQuery.html', 'text/html');
+            case '/data/ajaxjquery.html':
+                serveStaticFile(res, '/public/data/ajaxjquery.html', 'text/html');
                 break;
 
             case '/data/music.json':
@@ -140,8 +142,8 @@ http.createServer(function (req, res) {
                 break;
 
 
-            case '/data/info.xml':
-                serveStaticFile(res, '/public/data/info.xml', 'application/xml');
+            case '/data/info.html':
+                serveStaticFile(res, '/public/data/info.html', 'application/html');
                 break;
 
 
