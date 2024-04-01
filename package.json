@@ -1,5 +1,20 @@
 {
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "mynodesite",
+  "version": "1.0.0",
+  "description": "Exile",
+  "main": "handlebarsServer.js",
+  "author": "Alex",
+  "license": "ISC",
+
+  "engines": {
+    "node": ">=v16"
   }
+
 }
